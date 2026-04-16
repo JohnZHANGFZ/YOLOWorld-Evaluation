@@ -12,3 +12,5 @@ Archive/
 .claude/
 __pycache__/
 /images/
+/outputs_conf001/vis/
+/outputs/vis/
