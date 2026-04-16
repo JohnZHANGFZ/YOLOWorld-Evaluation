@@ -1,0 +1,229 @@
+{
+  "metric_backend": "native_coco_style",
+  "config": {
+    "predictions": "/Users/zhangfangzheng/Desktop/Research/Projects/YOLO_Evaluation/outputs_conf001/predictions.json",
+    "gt_json": "/Users/zhangfangzheng/Desktop/Research/Projects/YOLO_Evaluation/images/instances_val2017_select.json",
+    "prompts_csv": "/Users/zhangfangzheng/Desktop/Research/Projects/YOLO_Evaluation/prompts/prompts.csv",
+    "iou_thresholds": [
+      0.5,
+      0.55,
+      0.6,
+      0.65,
+      0.7,
+      0.75,
+      0.8,
+      0.85,
+      0.9,
+      0.95
+    ],
+    "max_dets": 100,
+    "localization_min_iou": 0.1,
+    "match_iou_threshold": 0.5,
+    "hallucination_max_iou": 0.1
+  },
+  "prediction_metadata": {
+    "weights": "/Users/zhangfangzheng/Desktop/Research/Projects/YOLO_Evaluation/yolov8s-worldv2.pt",
+    "classes": null,
+    "csv": "/Users/zhangfangzheng/Desktop/Research/Projects/YOLO_Evaluation/prompts/prompts.csv",
+    "device": "mps",
+    "conf": 0.001,
+    "imgsz": 640,
+    "num_images": 103
+  },
+  "dataset": {
+    "num_images": 103,
+    "num_gt_annotations": 713,
+    "scene_counts": {
+      "ambiguous": 34,
+      "natural": 34,
+      "unusual": 35
+    },
+    "zero_gt_images": [
+      "000000200152.jpg"
+    ],
+    "targets_cover_all_gt": true,
+    "missing_targets": []
+  },
+  "metrics": {
+    "overall": {
+      "num_images": 103,
+      "num_gt": 713,
+      "num_classes": 64,
+      "num_target_predictions": 5676,
+      "ap50": 0.7233,
+      "ap75": 0.6217,
+      "map50_95": 0.5593,
+      "recall50": 0.8205,
+      "ar100": 0.6187,
+      "recall_small": 0.6356,
+      "recall_medium": 0.9129,
+      "recall_large": 0.9108,
+      "tp50": 585,
+      "fn50": 128,
+      "correct_count": 552,
+      "miss_count": 12,
+      "semantic_confusion_count": 37,
+      "wrong_class_count": 62,
+      "localization_error_count": 50,
+      "duplicate_count": 554,
+      "miss_rate": 0.0168,
+      "semantic_confusion_rate": 0.0519,
+      "wrong_class_rate": 0.087,
+      "localization_error_rate": 0.0701,
+      "duplicate_rate": 0.777,
+      "hallucination_total_fp_per_image": 65.8932,
+      "hallucination_target_fp_per_image": 35.6214,
+      "hallucination_confusable_fp_per_image": 8.1456,
+      "hallucination_distractor_fp_per_image": 22.1262,
+      "hallucination_unknown_fp_per_image": 0.0,
+      "image_level_presence": {
+        "total_images": 103,
+        "target_accuracy": 0.9902912621359223,
+        "confusion_rate": 0.8543689320388349,
+        "hallucination_rate": 0.9320388349514563
+      }
+    },
+    "ambiguous": {
+      "num_images": 34,
+      "num_gt": 314,
+      "num_classes": 34,
+      "num_target_predictions": 2562,
+      "ap50": 0.7442,
+      "ap75": 0.6522,
+      "map50_95": 0.5949,
+      "recall50": 0.8471,
+      "ar100": 0.6436,
+      "recall_small": 0.7642,
+      "recall_medium": 0.9029,
+      "recall_large": 0.8762,
+      "tp50": 266,
+      "fn50": 48,
+      "correct_count": 249,
+      "miss_count": 5,
+      "semantic_confusion_count": 21,
+      "wrong_class_count": 27,
+      "localization_error_count": 12,
+      "duplicate_count": 232,
+      "miss_rate": 0.0159,
+      "semantic_confusion_rate": 0.0669,
+      "wrong_class_rate": 0.086,
+      "localization_error_rate": 0.0382,
+      "duplicate_rate": 0.7389,
+      "hallucination_total_fp_per_image": 90.0294,
+      "hallucination_target_fp_per_image": 45.9118,
+      "hallucination_confusable_fp_per_image": 9.7941,
+      "hallucination_distractor_fp_per_image": 34.3235,
+      "hallucination_unknown_fp_per_image": 0.0,
+      "image_level_presence": {
+        "total_images": 34,
+        "target_accuracy": 1.0,
+        "confusion_rate": 0.8823529411764706,
+        "hallucination_rate": 1.0
+      }
+    },
+    "natural": {
+      "num_images": 34,
+      "num_gt": 235,
+      "num_classes": 47,
+      "num_target_predictions": 1783,
+      "ap50": 0.6728,
+      "ap75": 0.5868,
+      "map50_95": 0.5185,
+      "recall50": 0.7702,
+      "ar100": 0.5813,
+      "recall_small": 0.5,
+      "recall_medium": 0.9333,
+      "recall_large": 0.9455,
+      "tp50": 181,
+      "fn50": 54,
+      "correct_count": 173,
+      "miss_count": 6,
+      "semantic_confusion_count": 9,
+      "wrong_class_count": 20,
+      "localization_error_count": 27,
+      "duplicate_count": 189,
+      "miss_rate": 0.0255,
+      "semantic_confusion_rate": 0.0383,
+      "wrong_class_rate": 0.0851,
+      "localization_error_rate": 0.1149,
+      "duplicate_rate": 0.8043,
+      "hallucination_total_fp_per_image": 61.7941,
+      "hallucination_target_fp_per_image": 32.5588,
+      "hallucination_confusable_fp_per_image": 6.5,
+      "hallucination_distractor_fp_per_image": 22.7353,
+      "hallucination_unknown_fp_per_image": 0.0,
+      "image_level_presence": {
+        "total_images": 34,
+        "target_accuracy": 1.0,
+        "confusion_rate": 0.8235294117647058,
+        "hallucination_rate": 0.9117647058823529
+      }
+    },
+    "unusual": {
+      "num_images": 35,
+      "num_gt": 164,
+      "num_classes": 35,
+      "num_target_predictions": 1331,
+      "ap50": 0.7362,
+      "ap75": 0.5524,
+      "map50_95": 0.5468,
+      "recall50": 0.8415,
+      "ar100": 0.6244,
+      "recall_small": 0.6,
+      "recall_medium": 0.9014,
+      "recall_large": 0.9434,
+      "tp50": 138,
+      "fn50": 26,
+      "correct_count": 130,
+      "miss_count": 1,
+      "semantic_confusion_count": 7,
+      "wrong_class_count": 15,
+      "localization_error_count": 11,
+      "duplicate_count": 133,
+      "miss_rate": 0.0061,
+      "semantic_confusion_rate": 0.0427,
+      "wrong_class_rate": 0.0915,
+      "localization_error_rate": 0.0671,
+      "duplicate_rate": 0.811,
+      "hallucination_total_fp_per_image": 46.4286,
+      "hallucination_target_fp_per_image": 28.6,
+      "hallucination_confusable_fp_per_image": 8.1429,
+      "hallucination_distractor_fp_per_image": 9.6857,
+      "hallucination_unknown_fp_per_image": 0.0,
+      "image_level_presence": {
+        "total_images": 35,
+        "target_accuracy": 0.9714285714285714,
+        "confusion_rate": 0.8571428571428571,
+        "hallucination_rate": 0.8857142857142857
+      }
+    }
+  },
+  "appendix": {
+    "image_level_presence": {
+      "overall": {
+        "total_images": 103,
+        "target_accuracy": 0.9902912621359223,
+        "confusion_rate": 0.8543689320388349,
+        "hallucination_rate": 0.9320388349514563
+      },
+      "ambiguous": {
+        "total_images": 34,
+        "target_accuracy": 1.0,
+        "confusion_rate": 0.8823529411764706,
+        "hallucination_rate": 1.0
+      },
+      "natural": {
+        "total_images": 34,
+        "target_accuracy": 1.0,
+        "confusion_rate": 0.8235294117647058,
+        "hallucination_rate": 0.9117647058823529
+      },
+      "unusual": {
+        "total_images": 35,
+        "target_accuracy": 0.9714285714285714,
+        "confusion_rate": 0.8571428571428571,
+        "hallucination_rate": 0.8857142857142857
+      }
+    }
+  }
+}
