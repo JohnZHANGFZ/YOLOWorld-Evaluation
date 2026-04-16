@@ -1,0 +1,104 @@
+image_id,scene_type,targets,confusables,distractors
+000000013923.jpg,ambiguous,bottle;bowl;chair;couch;dining table;potted plant;tv;vase,thermos;wine glass;plate;cup,napkin;tablecloth;lamp;rug;curtain
+000000026564.jpg,ambiguous,book;bottle;keyboard;laptop;mouse;tv,notebook;magazine;tablet;thermos,chair;plate;napkin;tablecloth;lamp
+000000054605.jpg,ambiguous,cake;chair;cup;dining table;fork;person,pie;bread;donut;bench,plate;napkin;bottle;tablecloth;book
+000000092053.jpg,ambiguous,bowl;cup;dining table;donut;fork;knife;person;sandwich,plate;basket;mug;vase,chair;napkin;bottle;tablecloth;book
+000000095843.jpg,ambiguous,bus,truck;train;tram,bench;trash can;bicycle;traffic cone;street lamp
+000000097994.jpg,ambiguous,book;bottle;clock;cup;keyboard;laptop;mouse;tv,notebook;magazine;tablet;thermos,chair;plate;napkin;tablecloth;lamp
+000000159458.jpg,ambiguous,bed;chair;dog,couch;futon;sleeping bag;bench,fence;tree;rock;grass;bird
+000000172571.jpg,ambiguous,cup;fork;knife;person;pizza;wine glass,mug;bowl;vase;spoon,chair;plate;napkin;bottle;tablecloth
+000000181796.jpg,ambiguous,cup;dining table;fork;knife;spoon;wine glass,mug;bowl;vase;desk,chair;plate;napkin;bottle;tablecloth
+000000196843.jpg,ambiguous,bicycle;bus,motorcycle;scooter;moped;truck,bench;trash can;traffic cone;street lamp;chair
+000000255165.jpg,ambiguous,book;cup;keyboard;laptop;mouse;tv,notebook;magazine;tablet;mug,chair;plate;napkin;bottle;tablecloth
+000000303305.jpg,ambiguous,bus;car;person,truck;train;tram;van,bench;trash can;bicycle;traffic cone;street lamp
+000000316015.jpg,ambiguous,book;cat;cell phone;keyboard;laptop;tv,notebook;magazine;tablet;dog,fence;tree;rock;grass;bird
+000000319935.jpg,ambiguous,bed;book;chair;couch;dining table;potted plant;tv,futon;sleeping bag;notebook;magazine,plate;napkin;bottle;tablecloth;lamp
+000000322895.jpg,ambiguous,bowl;chair;couch;tv;vase,plate;cup;basket;bench,napkin;bottle;tablecloth;lamp;rug
+000000344621.jpg,ambiguous,book;chair;couch;potted plant;remote,notebook;magazine;tablet;bench,lamp;rug;curtain;shelf;coffee table
+000000359937.jpg,ambiguous,bus,truck;train;tram,bench;trash can;bicycle;traffic cone;street lamp
+000000363840.jpg,ambiguous,bottle;chair;handbag;keyboard;laptop;mouse;person;tv,thermos;wine glass;vase;bench,plate;napkin;tablecloth;lamp;rug
+000000367386.jpg,ambiguous,book;chair;couch;cup;dining table;potted plant;remote;vase,notebook;magazine;tablet;bench,plate;napkin;bottle;tablecloth;lamp
+000000394275.jpg,ambiguous,bus;person,truck;train;tram;mannequin,bench;trash can;bicycle;traffic cone;street lamp
+000000416885.jpg,ambiguous,car;dining table;donut;fork;knife;sandwich;spoon;wine glass,truck;bus;van;desk,bench;trash can;bicycle;traffic cone;street lamp
+000000465718.jpg,ambiguous,cell phone;keyboard;laptop;mouse;person;tv,remote;calculator;walkie talkie;tablet,lamp;rug;curtain;shelf;coffee table
+000000483531.jpg,ambiguous,bed,couch;futon;sleeping bag,lamp;dresser;nightstand;blanket;pillow
+000000507235.jpg,ambiguous,bowl;dining table,plate;cup;basket;desk,chair;napkin;bottle;tablecloth;book
+000000515266.jpg,ambiguous,bench;car;truck,chair;stool;couch;bus,trash can;bicycle;traffic cone;street lamp;book
+000000516916.jpg,ambiguous,cell phone;chair;keyboard;laptop;mouse;tv,remote;calculator;walkie talkie;bench,lamp;rug;curtain;shelf;coffee table
+000000528399.jpg,ambiguous,bowl;cup;dining table;person;sandwich;spoon,plate;basket;mug;vase,chair;napkin;bottle;tablecloth;book
+000000529762.jpg,ambiguous,book;bowl;cell phone;dining table;person;sandwich;wine glass,notebook;magazine;tablet;plate,chair;napkin;bottle;tablecloth;printer
+000000534673.jpg,ambiguous,bus;person,truck;train;tram;mannequin,bench;trash can;bicycle;traffic cone;street lamp
+000000546325.jpg,ambiguous,couch;dining table;remote,loveseat;futon;recliner;desk,chair;plate;napkin;bottle;tablecloth
+000000547144.jpg,ambiguous,keyboard;laptop;mouse;tv,calculator;remote;tablet;monitor,lamp;rug;curtain;shelf;coffee table
+000000549674.jpg,ambiguous,cell phone;cup;keyboard;mouse;tv,remote;calculator;walkie talkie;mug,chair;plate;napkin;bottle;tablecloth
+000000555009.jpg,ambiguous,bottle;cup;keyboard;laptop;mouse;tv,thermos;wine glass;vase;mug,chair;plate;napkin;tablecloth;lamp
+000000578545.jpg,ambiguous,bed;book;chair;person,couch;futon;sleeping bag;notebook,lamp;dresser;nightstand;blanket;pillow
+000000000139.jpg,natural,book;chair;clock;dining table;microwave;person;potted plant;refrigerator;tv;vase,notebook;magazine;tablet;bench,plate;napkin;bottle;tablecloth;lamp
+000000000285.jpg,natural,bear,wolf;lion;gorilla,fence;tree;rock;grass;bird
+000000000632.jpg,natural,bed;book;chair;potted plant,couch;futon;sleeping bag;notebook,lamp;dresser;nightstand;blanket;pillow
+000000000724.jpg,natural,car;stop sign;truck,bus;van;traffic light;parking meter,bench;trash can;bicycle;traffic cone;street lamp
+000000001000.jpg,natural,backpack;handbag;person;tennis racket,suitcase;duffel bag;purse;badminton player,bench;bicycle;water bottle;dog;chair
+000000001268.jpg,natural,backpack;bird;boat;cell phone;handbag;person,suitcase;duffel bag;bat;kite,umbrella;towel;chair;fence;tree
+000000001532.jpg,natural,car;truck,bus;van,bench;trash can;bicycle;traffic cone;street lamp
+000000001761.jpg,natural,airplane;person,jet;fighter jet;helicopter;mannequin,bus;truck;car;train;bench
+000000002006.jpg,natural,bus;person;tie;traffic light,truck;train;tram;mannequin,bench;trash can;bicycle;traffic cone;street lamp
+000000002153.jpg,natural,baseball bat;person,tennis racket;cricket bat;golf club;baseball player,bench;backpack;bicycle;water bottle;dog
+000000002261.jpg,natural,person;surfboard,surfer;paddleboarder;swimmer;skateboard,boat;umbrella;towel;chair;backpack
+000000002473.jpg,natural,person;skis,skier;snowboarder;ice skater;snowboard,sled;backpack;bench;dog;pole
+000000002532.jpg,natural,person;skis,skier;snowboarder;ice skater;snowboard,sled;backpack;bench;dog;pole
+000000003501.jpg,natural,bowl;broccoli,plate;cup;basket;cauliflower,chair;napkin;bottle;tablecloth;book
+000000004134.jpg,natural,chair;dining table;person;tie;wine glass,bench;stool;couch;desk,plate;napkin;bottle;tablecloth;book
+000000005477.jpg,natural,airplane,jet;fighter jet;helicopter,bus;truck;car;train;bench
+000000007088.jpg,natural,car;person;truck;umbrella,bus;van;mannequin;statue,boat;towel;chair;backpack;bench
+000000007108.jpg,natural,elephant,rhinoceros;hippopotamus;buffalo,fence;tree;rock;grass;bird
+000000007278.jpg,natural,person;surfboard,surfer;paddleboarder;swimmer;skateboard,boat;umbrella;towel;chair;backpack
+000000007816.jpg,natural,motorcycle;person,bicycle;scooter;moped;mannequin,bench;trash can;traffic cone;street lamp;chair
+000000009769.jpg,natural,fire hydrant;person;truck,water pump;bollard;parking meter;mannequin,bench;trash can;bicycle;traffic cone;street lamp
+000000010092.jpg,natural,bed;bird;chair;dining table,couch;futon;sleeping bag;bat,fence;tree;rock;grass;plate
+000000010583.jpg,natural,dining table;knife;sandwich,desk;counter;bench;fork,chair;plate;napkin;bottle;tablecloth
+000000011051.jpg,natural,person;tie,mannequin;statue;doll;scarf,bench;backpack;bicycle;trash can;dog
+000000014038.jpg,natural,bed;book;bottle;cell phone;chair;couch;dining table;microwave;potted plant;refrigerator;tv,futon;sleeping bag;notebook;magazine,plate;napkin;tablecloth;lamp;dresser
+000000014226.jpg,natural,apple;chair;dining table;laptop;person,orange;tomato;peach;bench,plate;napkin;bottle;tablecloth;printer
+000000015746.jpg,natural,fire hydrant,water pump;bollard;parking meter,bench;trash can;bicycle;traffic cone;street lamp
+000000016439.jpg,natural,laptop;wine glass,tablet;monitor;tv;cup,chair;plate;napkin;bottle;tablecloth
+000000016502.jpg,natural,sheep,goat;llama;alpaca,fence;tree;rock;grass;bird
+000000016958.jpg,natural,book;chair;vase,notebook;magazine;tablet;bench,lamp;rug;curtain;shelf;coffee table
+000000017029.jpg,natural,car;dog;frisbee,truck;bus;van;cat,fence;tree;rock;grass;bird
+000000017031.jpg,natural,giraffe,horse;deer;llama,fence;tree;rock;grass;bird
+000000018519.jpg,natural,person,mannequin;statue;doll,bench;backpack;bicycle;trash can;dog
+000000026465.jpg,natural,cell phone;chair;keyboard;laptop;person;remote,calculator;walkie talkie;bench;stool,lamp;rug;curtain;shelf;coffee table
+000000000776.jpg,unusual,bed;teddy bear,couch;futon;sleeping bag;dog,lamp;dresser;nightstand;blanket;pillow
+000000005001.jpg,unusual,bicycle;handbag;person;scissors,motorcycle;scooter;moped;backpack,bench;trash can;traffic cone;street lamp;chair
+000000007818.jpg,unusual,chair;dining table;fork;knife;vase;wine glass,bench;stool;couch;desk,plate;napkin;bottle;tablecloth;lamp
+000000009448.jpg,unusual,person;umbrella,mannequin;statue;doll;kite,boat;towel;chair;backpack;bench
+000000011511.jpg,unusual,bench;handbag;motorcycle;person,chair;stool;couch;backpack,trash can;bicycle;traffic cone;street lamp;book
+000000014007.jpg,unusual,cat;refrigerator,dog;fox;raccoon;freezer,fence;tree;rock;grass;bird
+000000017959.jpg,unusual,backpack;kite;person,handbag;suitcase;duffel bag;umbrella,boat;towel;chair;book;lamp
+000000023751.jpg,unusual,kite,umbrella;flag;parachute,boat;towel;chair;backpack;book
+000000035062.jpg,unusual,bed;person,couch;futon;sleeping bag;mannequin,lamp;dresser;nightstand;blanket;pillow
+000000035963.jpg,unusual,teddy bear,dog;cat;stuffed rabbit,lamp;dresser;nightstand;blanket;pillow
+000000042889.jpg,unusual,keyboard;teddy bear,laptop;calculator;remote;dog,lamp;dresser;nightstand;blanket;pillow
+000000044068.jpg,unusual,chair;teddy bear,bench;stool;couch;dog,lamp;dresser;nightstand;blanket;pillow
+000000050844.jpg,unusual,teddy bear,dog;cat;stuffed rabbit,lamp;dresser;nightstand;blanket;pillow
+000000051326.jpg,unusual,vase,bottle;wine glass;potted plant,lamp;rug;curtain;shelf;coffee table
+000000051961.jpg,unusual,parking meter,bollard;fire hydrant;mailbox,bench;trash can;bicycle;traffic cone;street lamp
+000000085665.jpg,unusual,kite,umbrella;flag;parachute,boat;towel;chair;backpack;book
+000000087038.jpg,unusual,bicycle;person;skateboard,motorcycle;scooter;moped;skateboarder,bench;backpack;water bottle;dog;trash can
+000000106330.jpg,unusual,teddy bear,dog;cat;stuffed rabbit,lamp;dresser;nightstand;blanket;pillow
+000000110999.jpg,unusual,apple;bowl;cup;fork;knife;orange;person;spoon,tomato;peach;plate;basket,chair;napkin;bottle;tablecloth;book
+000000113403.jpg,unusual,bed;teddy bear,couch;futon;sleeping bag;dog,lamp;dresser;nightstand;blanket;pillow
+000000121591.jpg,unusual,person;skateboard,skateboarder;snowboarder;surfer;snowboard,bench;backpack;bicycle;water bottle;dog
+000000122745.jpg,unusual,stop sign,traffic light;parking meter;wall sign,bench;trash can;bicycle;traffic cone;street lamp
+000000124442.jpg,unusual,kite;person,umbrella;flag;parachute;flag bearer,boat;towel;chair;backpack;book
+000000130465.jpg,unusual,clock,mirror;picture frame;wall sign,bench;backpack;bicycle;trash can;dog
+000000155051.jpg,unusual,clock,mirror;picture frame;wall sign,bench;backpack;bicycle;trash can;dog
+000000156292.jpg,unusual,clock;handbag;person,mirror;picture frame;wall sign;backpack,bench;bicycle;trash can;dog;chair
+000000166563.jpg,unusual,elephant,rhinoceros;hippopotamus;buffalo,fence;tree;rock;grass;bird
+000000187236.jpg,unusual,cat;chair;couch,dog;fox;raccoon;bench,fence;tree;rock;grass;bird
+000000200152.jpg,unusual,,traffic light;stop sign;billboard,parking meter;bench;trash can;car
+000000232684.jpg,unusual,laptop;person,tablet;monitor;tv;mannequin,printer;book;cup;notebook;desk lamp
+000000255749.jpg,unusual,bus;person,truck;train;tram;mannequin,bench;trash can;bicycle;traffic cone;street lamp
+000000258388.jpg,unusual,person;skateboard,skateboarder;snowboarder;surfer;snowboard,bench;backpack;bicycle;water bottle;dog
+000000344795.jpg,unusual,cake;oven,pie;bread;donut;microwave,chair;plate;napkin;bottle;tablecloth
+000000477805.jpg,unusual,laptop;person,tablet;monitor;tv;mannequin,printer;book;cup;notebook;desk lamp
+000000545219.jpg,unusual,backpack;bus;handbag;person,suitcase;duffel bag;truck;train,bench;trash can;bicycle;traffic cone;street lamp
