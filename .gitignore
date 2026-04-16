@@ -1,0 +1,14 @@
+Archive/
+.idea/
+.vscode/
+.pytest_cache/
+.ruff_cache/
+.DS_Store
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.claude/
+__pycache__/
+/images/
