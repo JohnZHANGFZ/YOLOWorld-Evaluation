@@ -160,7 +160,7 @@ python yoloworld-usage.py \
     --csv prompts/prompts.csv \
     --images-dir images/ \
     --conf 0.25 \
-    --outdir outputs
+    --outdir outputs_conf25
 ```
 
 **Arguments:**
@@ -189,7 +189,7 @@ python yoloworld-usage.py \
     --csv prompts/prompts.csv \
     --images-dir images/ \
     --conf 0.25 \
-    --outdir outputs
+    --outdir outputs_conf25
 
 # conf = 0.001 (higher recall, more noise)
 python yoloworld-usage.py \
@@ -205,20 +205,20 @@ python yoloworld-usage.py \
 
 ```bash
 python evaluate.py \
-    --predictions outputs/predictions.json \
+    --predictions outputs_conf25/predictions.json \
     --gt-json images/instances_val2017_select.json \
     --prompts-csv prompts/prompts.csv \
-    --outdir outputs/eval_box
+    --outdir outputs_conf25/eval_box
 ```
 
 **Arguments:**
 
 | Argument | Default | Description |
 |---|---|---|
-| `--predictions` | `outputs/predictions.json` | Path to predictions JSON from Step 1. |
+| `--predictions` | `outputs_conf25/predictions.json` | Path to predictions JSON from Step 1. |
 | `--gt-json` | `images/instances_val2017_select.json` | Path to COCO-style ground-truth annotations. |
 | `--prompts-csv` | `prompts/prompts.csv` | Path to prompts CSV. |
-| `--outdir` | `outputs/eval_box` | Directory for evaluation output files. |
+| `--outdir` | `outputs_conf25/eval_box` | Directory for evaluation output files. |
 | `--max-dets` | `100` | Max target detections per image for standard metrics. |
 | `--localization-min-iou` | `0.1` | Minimum IoU to classify a same-class miss as localization error. |
 | `--hallucination-max-iou` | `0.1` | Predictions with max GT IoU below this are counted as hallucinations. |
@@ -246,7 +246,7 @@ YOLO_Evaluation/
 ├── images/
 │   ├── instances_val2017_select.json   # COCO-format GT annotations (103 images)
 │   └── ...                         # Image files
-├── outputs/                        # Results with conf=0.25
+├── outputs_conf25/                 # Results with conf=0.25
 │   ├── predictions.json
 │   ├── vis/                        # Annotated images
 │   └── eval_box/
